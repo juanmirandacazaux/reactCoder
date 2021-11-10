@@ -4,6 +4,7 @@ const NavBar = () => {
     
     <div className="header">
         <nav>
+            <h1>Hola</h1>
            <ul>
                
            <li>Hola</li>
