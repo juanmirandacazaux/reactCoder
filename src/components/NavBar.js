@@ -1,10 +1,12 @@
+// import {Logo} from "../img/band-logo.jpg"
+
 const NavBar = () => {
 
     return ( 
     
     <div className="header">
         <nav>
-            <h1>Hola</h1>
+            {/* <img src={Logo} alt=""/> */}
            <ul>
                
            <li>Hola</li>

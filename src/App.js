@@ -1,5 +1,6 @@
 import './styles.css'
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
     <NavBar/>
 
 
-    <h2>Hola</h2>
+    <p>loerm Ipsum hola hola</p>
+
+  
 
       
     </div>
