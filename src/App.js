@@ -1,6 +1,6 @@
-import './styles.css'
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar/NavBar';
+import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
+import { ItemCount } from './components/ItemCount/ItemCount';
 
 
 function App() {
@@ -8,10 +8,11 @@ function App() {
     <div className="mi-app">
 
     <NavBar/>
+   
 
 
-    <p>loerm Ipsum hola hola</p>
-
+    <ItemListContainer saludo='Bienvenido Al Sitio'/>
+    <ItemCount inicial={1} max = {10} />
   
 
       
@@ -22,6 +23,8 @@ function App() {
 }
 
 export default App;
+
+
 
 
 
