@@ -1,21 +1,20 @@
-import { useEffect, useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import { pedirDatos } from '../../helpers/pedirDatos'
-import { ItemList } from '../ItemList/ItemList'
-import "./ItemListContainer.css"
+import { ItemDetail } from './ItemDetail'
 
 
 
-export const ItemListContainer = ({saludo}) => {
-   
+export const ItemDetailContainer = () => {
+    
     const [loading, setLoading] = useState(false)
-    const [productos, setProductos] = useState([])
+    const [detalle, setDetalle] = useState([])
 
     useEffect(() => {
 
         setLoading(true)
         pedirDatos()
             .then( (resp) => {
-                setProductos(resp)
+                setDetalle(resp.find(item=>item.id === 1))
             })
             .catch( (error) => {
                 console.log(error)
@@ -25,20 +24,18 @@ export const ItemListContainer = ({saludo}) => {
             })
     }, [])
 
-console.log(productos)
+    console.log(detalle)
+
+
     return (
         <div>
-            <h2 className="tituloInicio">  {saludo} </h2>
-            <hr/>
+            
 
             {
               loading 
               ? <h4>Cargando...</h4> 
-              : <ItemList productos={productos}/>
+              : <ItemDetail detalle={detalle}/>
             }
         </div>
     )
 }
-
-
-
