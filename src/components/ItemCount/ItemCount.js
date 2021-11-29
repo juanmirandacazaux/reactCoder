@@ -25,6 +25,8 @@ export const ItemCount = ({inicial, max}) => {
 
             <button onClick = {sumar} >+</button>
             <button onClick = {restar}>-</button>
+           
+
         </div>
     )
 }
