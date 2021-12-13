@@ -4,7 +4,8 @@ export  const stock = [
         price: 135,
         product: "Electric guitar Epiphone Les Paul",
         desc: "Lorem Ipsum",
-        img: "https://via.placeholder.com/150",
+        cat: "guitarra",
+        img: "https://via.placeholder.com/150"
     },
 
     {
@@ -12,7 +13,8 @@ export  const stock = [
         price: 256,
         product: "Electric guitar Epiphone SG",
         desc: "Lorem Ipsum",
-        img: "https://via.placeholder.com/150",
+        cat: "guitarra",
+        img: "https://via.placeholder.com/150"
     },
 
     {
@@ -20,7 +22,8 @@ export  const stock = [
         price: 400,
         product: "Electric Bass Fender",
         desc: "Lorem ipsum",
-        img: "https://via.placeholder.com/150",
+        cat: "bajo",
+        img: "https://via.placeholder.com/150"
     },
 
     {
@@ -28,7 +31,8 @@ export  const stock = [
         price: 640,
         product: "Electric Bass Gibson",
         desc: "Lorem ipsum",
-        img: "https://via.placeholder.com/150",
+        cat: "bajo",
+        img: "https://via.placeholder.com/150"
     },
 
     {
@@ -36,7 +40,8 @@ export  const stock = [
         price: 90,
         product: "Uklele Fender",
         desc: "Lorem ipsum",
-        img: "https://via.placeholder.com/150",
+        cat: "ukelele",
+        img: "https://via.placeholder.com/150"
     },
 
 ]

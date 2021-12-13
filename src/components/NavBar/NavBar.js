@@ -1,4 +1,5 @@
 import './NavBar.css'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
 
@@ -10,9 +11,9 @@ const NavBar = () => {
            
         <nav>  
             <ul>    
-                <li>Enlace 1</li>
-                <li>Enlace 2</li>
-                <li>Enlace 3</li>
+                <Link to ="/categoria/guitarra" ><li>Guitarras</li></Link>
+                <Link to ="/categoria/bajo" ><li>Bajos</li></Link>
+                <Link to ="/categoria/ukelele" ><li>Otros Instrumentos</li></Link>
            </ul>
         </nav>
     </header>)
