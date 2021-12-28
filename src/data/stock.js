@@ -38,9 +38,54 @@ export  const stock = [
     {
         id: 5,
         price: 90,
-        product: "Uklele Fender",
+        product: "Ukelele Fender",
         desc: "Lorem ipsum",
         cat: "ukelele",
+        img: "https://via.placeholder.com/150"
+    },
+
+    {
+        id: 6,
+        price: 94,
+        product: "Violin 4/4 cremona",
+        desc: "Lorem ipsum",
+        cat: "ukelele",
+        img: "https://via.placeholder.com/150"
+    },
+
+    {
+        id: 7,
+        price: 280,
+        product: "Squire Telecaster",
+        desc: "Lorem ipsum",
+        cat: "guitarra",
+        img: "https://via.placeholder.com/150"
+    },
+
+    {
+        id: 8,
+        price: 280,
+        product: "Squire Stratocaster",
+        desc: "Lorem ipsum",
+        cat: "guitarra",
+        img: "https://via.placeholder.com/150"
+    },
+
+    {
+        id: 9,
+        price: 380,
+        product: "Bajo Squire Jazz Bass",
+        desc: "Lorem ipsum",
+        cat: "bajo",
+        img: "https://via.placeholder.com/150"
+    },
+
+    {
+        id: 10,
+        price: 380,
+        product: "Bajo Squire P-Bass",
+        desc: "Lorem ipsum",
+        cat: "bajo",
         img: "https://via.placeholder.com/150"
     },
 

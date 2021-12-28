@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-export const ItemCount = ({inicial, max}) => {
+export const ItemCount = ({inicial, max, onAdd}) => {
 
     const [cantidad, setCantidad] = useState(inicial) 
 
@@ -25,6 +25,7 @@ export const ItemCount = ({inicial, max}) => {
 
             <button onClick = {sumar} >+</button>
             <button onClick = {restar}>-</button>
+            <button onClick = {() => onAdd (cantidad)}>Agregar Al carrito</button>
            
 
         </div>
