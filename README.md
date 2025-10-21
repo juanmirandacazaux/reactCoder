@@ -1,6 +1,6 @@
 # reactCoder 🎸 Guitar Store React
 
-Una tienda de guitarras creada con **React JS**, pensada como proyecto personal para mostrar conceptos de e-commerce: catálogo de productos, carrito de compras, filtros y diseño responsivo.
+Una tienda de guitarras creada con **React JS**, pensada como proyecto personal para mostrar conceptos de e-commerce: catálogo de productos, carrito de compras, filtros y diseño responsive.
 
 ## 🚀 Demo  
 [➡ Ver la demo en vivo](https://tu-usuario.github.io/reactCoder) 
