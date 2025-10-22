@@ -1,30 +1,28 @@
 # reactCoder 🎸 Guitar Store React
 
-Una tienda de guitarras creada con **React JS**, pensada como proyecto personal para mostrar conceptos de e-commerce: catálogo de productos, carrito de compras, filtros y diseño responsive.
+A guitar store built with **React JS**, created as a personal project to demonstrate e-commerce concepts: product catalog, shopping cart, filters, and responsive design.
 
-## 🚀 Demo  
-[➡ Ver la demo en vivo](https://tu-usuario.github.io/reactCoder) 
+---
 
-## 🧰 Tecnologías usadas  
-- React JS  
-- React Router  
-- CSS / SCSS (o el sistema que uses)  
-- Fetch / Axios para consumir datos (si aplica)  
-- LocalStorage o Context API para estado global (carrito)  
-- Herramientas de build: Create React App / Webpack / etc.
+## 🚀 Demo
+➡ [View the live demo](https://tu-usuario.github.io/reactCoder)
 
-## 📦 Instalación y desarrollo  
+---
+
+## 🧰 Technologies Used
+
+- **React JS**  
+- **React Router**  
+- **CSS / SCSS** (or your preferred styling system)  
+- **Fetch / Axios** for data fetching (if applicable)  
+- **LocalStorage or Context API** for global state (shopping cart)  
+- Build tools: Create React App / Webpack / etc.  
+
+---
+
+## 📦 Installation & Development
+
+### 1. Clone the repository
 ```bash
-# Cloná el repositorio
 git clone https://github.com/juanmirandacazaux/reactCoder.git
 cd reactCoder
-
-# Instalá dependencias
-npm install
-
-# Ejecutá en modo desarrollo
-npm start
-# Abre http://localhost:3000 en el navegador
-
-# Construcción para producción
-npm run build
